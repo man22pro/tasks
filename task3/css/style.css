@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body, button {
+    font-family: "Inter", sans-serif;
+}
+/* ==================================== */
+header {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(65, 125, 255);
+    padding: 1% 4% 0.4% 4%;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: lightgreen;
+}
+.logo:hover {
+    color: #ECFF05;
+}
+.menu {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.menu a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: lightgreen;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: black;
+    background: #ECFF05;
+    border-radius: 8px;
+    font-weight: 500;
+}
+/* ==================================== */
+main {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+p {
+    font-size: 20px;
+}
+.hero {
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+    margin: 12px 0 12px;
+}
+.hero-card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: left;
+    max-width: 515px;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 110%;
+}
+h3 {
+    font-size: 24px;
+    color: rgb(50, 50, 50);
+    line-height: 150%;
+}
+.hero-price {
+    font-size: 24px;
+}
+.hero-info {
+    font-size: 20px;
+}
+button {
+    background: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    color: #ECFF05;
+}
+.hero-comment {
+    font-size: 16px;
+    color: rgb(50, 50, 50);
+}
+/* ==================================== */
+.products {
+    margin: 56px 0px 120px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 24px;
+}
+.card {
+    flex: auto;
+    cursor: pointer;
+}
+.card figcaption {
+    margin-top: 24px;
+    line-height: 150%;
+}
+h4 {
+    font-size: 20px;
+}
+.card-info {
+    color: rgb(50, 50, 50);
+}
+/* ==================================== */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(65, 125, 255);
+    color: lightgreen;
+    padding: 1% 4%;
+}
+.footer-info {
+    display: flex;
+    justify-content: space-between;   
+    flex-direction: column;
+
+}
+.footer-info h3 {
+    color: lightgreen;
+    font-weight: 700;
+}
+.footer-links {
+    display: flex;
+    gap: 32px;
+}
+.footer-links-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 160px;
+}
+.footer-links-list a {
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 150%;
+    color: rgb(50, 50, 50);
+}
+.footer-links-list a:hover {
+    color: #ECFF05;
+}
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.social-media:hover {
+    width: 32px;
+}

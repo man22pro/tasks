@@ -1,0 +1,124 @@
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: Arial;
+     box-sizing: border-box;
+ }
+
+ body {
+     max-width: 1280px;
+     margin: 5px auto;
+     width: 100%;
+     padding: 1% 0px 5%;
+     background-color: rgb(225, 225, 225);
+ }
+
+ h1 {
+     text-align: center;
+     padding: 48px 6px 24px;
+ }
+
+ .card {
+     background: lightgray;
+     width: 316px;
+     padding: 12px;
+     padding-bottom: 12px;
+     margin: 2px auto;
+     transition: 0.4s;
+     display: inline-block;
+     border-radius: 12px;
+ }
+
+ .card:hover {
+     /* transform: scale(1.15); */
+     background-color: white;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 1.1);
+ }
+
+ .like {
+     margin: 6px;
+     float: right;
+     cursor: pointer;
+ }
+
+ .like:hover {
+     transform: scale(1.25);
+     box-shadow: inset 0em 0em 0.6em #ED3CCA;
+     /* box-shadow: inset 0px 5px 15px rgba(237, 59, 201, 1.0); */
+     /* background: linear-gradient(90deg, rgba(237, 60, 202, 1) 0%, rgba(184, 31, 228, 1) 50%, rgba(124, 26, 248, 1) 100%); */
+ }
+
+ .card .picture {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+     border-radius: 12px;
+ }
+
+ .card h3 {
+     text-align: center;
+     /* text-align: justifriy;     */
+     /* text-align: right; */
+     /* padding: 12px 6px 12px; */
+     text-indent: 20px;
+     margin: 12px 6px;
+     /* height: 66px; */
+     height: 44px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     display: -webkit-box;
+     -webkit-line-clamp: 2;
+     -webkit-box-orient: vertical;
+ }
+
+ /* .card h3:hover {
+     transform: translate(12px, 50%);
+ } */
+
+ .card .info {
+     font-family: cursive;
+     /* text-indent: 24px; */
+     height: 114px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     display: -webkit-box;
+     -webkit-line-clamp: 5;
+     -webkit-box-orient: vertical;
+ }
+
+ .card .price {
+     padding-top: 12px;
+     color: #ED3CCA;
+     font-weight: 800;
+ }
+
+ .card .old-price {
+     color: grey;
+     font-weight: normal;
+     text-decoration: line-through;
+     padding-left: 12px;
+ }
+
+ button {
+     font-weight: normal;
+     float: right;
+     margin: 6px 0px 0px;
+     padding: 6px 12px;
+     border: 0px;
+     border-radius: 6px;
+     background: #ED3CCA;
+     background: linear-gradient(90deg, rgba(237, 60, 202, 1) 0%, rgba(184, 31, 228, 1) 50%, rgba(124, 26, 248, 1) 100%);
+     color: white;
+     cursor: pointer;
+ }
+
+ button:hover {
+     /* transform: scalex(1.25); */
+     /* transform: translateX(-2em); */
+     /* transform: scale(1.25); */
+     /* box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.5) inset; */
+     box-shadow: 0em 0em 1.0em blue;
+     /* transform: scale(1.25) translate(-40%, -0%); */
+     font-weight: bolder;
+ }
