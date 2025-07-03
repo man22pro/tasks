@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: rgb(0, 30, 0);
+    padding: 12px;
+    height: 100vh;
+}
+.pictures {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    gap: 12px;
+}
+.pictures img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+.image-sm {
+    /* opacity: 0.33; */
+    filter: grayscale(1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.image-sm:hover {
+    filter: grayscale(0);
+}
