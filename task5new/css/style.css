@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+button{
+    padding: 6px 12px;
+    margin: 24px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#burger-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 96px 48px;
+    gap: 30px;
+    background: rgb(220, 230, 220);
+    height: 100%;
+    box-shadow: 0px 0px 12px #002200;
+    transition: 0.5s;
+    
+}
+
+
+
+#burger-menu a{
+    color: #003300;
+    text-decoration: none;
+}
+
+#burger-menu-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
